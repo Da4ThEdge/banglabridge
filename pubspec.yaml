@@ -1,0 +1,61 @@
+name: banglabridge
+description: "A new Flutter project."
+publish_to: "none"
+
+environment:
+  sdk: ">=3.1.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  fonnx:
+    # Must require this modified FONNX package https://github.com/Da4ThEdge/fonnx-whisper-multilingual cloned and placed at the same dir level as this project
+    # example:
+    # - fonnx-whisper-multilingual (cloned)
+    # - banglabridge (this project dir)
+    path: ../fonnx-whisper-multilingual
+
+  ffi: ^2.1.0
+  path: ^1.8.3
+  path_provider: ^2.1.1
+  record: '<5.2.0'
+  record_darwin: '<1.2.0'
+
+  flutter_launcher_icons: "^0.14.3"
+  rename_app: ^1.6.2    # to rename app name run > dart run rename_app:main all="My App Name"
+  sqflite: ^2.4.2
+  audio_waveforms: ^1.3.0
+  permission_handler: ^11.4.0
+
+dev_dependencies:
+  integration_test:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/models/sileroVad/silero_vad.onnx
+    - assets/models/whisper/whisper_base-bn.onnx
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path_ios: "assets/icon/ios-icon.png"
+  image_path_android: "assets/icon/android-icon.png"
+  adaptive_icon_background: "assets/icon/android-icon-background.png"
+  adaptive_icon_foreground: "assets/icon/android-icon-foreground.png"
+  web:
+    generate: true
+    image_path: "assets/icon/ios-icon.png"
+  windows:
+    generate: true
+    image_path: "assets/icon/ios-icon.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "assets/icon/ios-icon.png"

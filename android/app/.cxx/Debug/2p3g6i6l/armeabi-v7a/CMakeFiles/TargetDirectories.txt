@@ -1,0 +1,2 @@
+C:/personal/github/fonnx/example/android/app/.cxx/Debug/2p3g6i6l/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/personal/github/fonnx/example/android/app/.cxx/Debug/2p3g6i6l/armeabi-v7a/CMakeFiles/rebuild_cache.dir

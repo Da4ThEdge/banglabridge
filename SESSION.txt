@@ -1,0 +1,125 @@
+Launching lib\main.dart on sdk gphone64 x86 64 in debug mode...
+Running Gradle task 'assembleDebug'...                              7.5s
+√ Built build\app\outputs\flutter-apk\app-debug.apk
+Installing build\app\outputs\flutter-apk\app-debug.apk...           3.2s
+Uninstalling old version...
+Installing build\app\outputs\flutter-apk\app-debug.apk...           5.4s
+I/flutter ( 9938): [IMPORTANT:flutter/shell/platform/android/android_context_gl_impeller.cc(94)] Using the Impeller rendering backend (OpenGLES).
+Syncing files to device sdk gphone64 x86 64...                     112ms
+
+Flutter run key commands.
+r Hot reload. 
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "flutter run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+
+A Dart VM Service on sdk gphone64 x86 64 is available at: http://127.0.0.1:51499/2yAVKMJWY4o=/
+The Flutter DevTools debugger and profiler on sdk gphone64 x86 64 is available at: http://127.0.0.1:9102?uri=http://127.0.0.1:51499/2yAVKMJWY4o=/
+I/Choreographer( 9938): Skipped 83 frames!  The application may be doing too much work on its main thread.
+I/x.fonnx.example( 9938): Compiler allocated 5106KB to compile void android.view.ViewRootImpl.performTraversals()
+I/WindowExtensionsImpl( 9938): Initializing Window Extensions, vendor API level=9, activity embedding enabled=true
+W/HWUI    ( 9938): Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+W/HWUI    ( 9938): Failed to initialize 101010-2 format, error = EGL_SUCCESS
+I/Choreographer( 9938): Skipped 32 frames!  The application may be doing too much work on its main thread.
+D/WindowLayoutComponentImpl( 9938): Register WindowLayoutInfoListener on Context=com.telosnex.fonnx.example.MainActivity@6e483fa, of which baseContext=android.app.ContextImpl@81570b4
+D/InsetsController( 9938): hide(ime(), fromIme=false)
+I/ImeTracker( 9938): com.telosnex.fonnx.example:128a9e9a: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+D/ProfileInstaller( 9938): Installing profile for com.telosnex.fonnx.example
+I/flutter ( 9938): Copying model to /data/user/0/com.telosnex.fonnx.example/files/silero_vad.onnx. Why? Either the file does not exist (true), or it does exist but is not the same size as the one in the assets directory. (true)
+I/flutter ( 9938): About to get byte data for /data/user/0/com.telosnex.fonnx.example/files/silero_vad.onnx
+I/flutter ( 9938): About to copy model to /data/user/0/com.telosnex.fonnx.example/files/silero_vad.onnx
+I/flutter ( 9938): Copied model to /data/user/0/com.telosnex.fonnx.example/files/silero_vad.onnx
+I/flutter ( 9938): Copying model to /data/user/0/com.telosnex.fonnx.example/files/whisper_base-bn.onnx. Why? Either the file does not exist (true), or it does exist but is not the same size as the one in the assets directory. (true)
+I/flutter ( 9938): About to get byte data for /data/user/0/com.telosnex.fonnx.example/files/whisper_base-bn.onnx
+I/flutter ( 9938): About to copy model to /data/user/0/com.telosnex.fonnx.example/files/whisper_base-bn.onnx
+I/flutter ( 9938): Copied model to /data/user/0/com.telosnex.fonnx.example/files/whisper_base-bn.onnx
+D/AudioSystem( 9938): onNewService: media.audio_policy service obtained 0x71362e32c6f0
+D/AudioSystem( 9938): getService: checking for service media.audio_policy: 0x71362e32c6f0
+D/AudioSystem( 9938): onNewServiceWithAdapter: media.audio_flinger service obtained 0x71366e31de20
+D/AudioSystem( 9938): getService: checking for service media.audio_flinger: 0x71362e32c1a0
+D/AudioSystem( 9938): getClient: checking for service: 0x71366e31de20
+D/InsetsController( 9938): hide(ime(), fromIme=false)
+I/ImeTracker( 9938): com.telosnex.fonnx.example:423fecf: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+D/nativeloader( 9938): Load /data/app/~~tatsTuaW27pOSmCgu5zeCQ==/com.telosnex.fonnx.example-58HAwwoz9Ky6sHX5WDQJIg==/base.apk!/lib/x86_64/libonnxruntime4j_jni.so using class loader ns clns-7 (caller=/data/app/~~tatsTuaW27pOSmCgu5zeCQ==/com.telosnex.fonnx.example-58HAwwoz9Ky6sHX5WDQJIg==/base.apk): ok
+D/[OrtVad.kt]( 9938): previous LTSM state is null, initializing them to zero arrays.
+D/[OrtVad.kt]( 9938): keys: []
+D/[OrtVad.kt]( 9938): runtime types: null, null
+I/x.fonnx.example( 9938): AssetManager2(0x7135be33e678) locale list changing from [] to [en-US]
+D/nativeloader( 9938): Load /data/app/~~tatsTuaW27pOSmCgu5zeCQ==/com.telosnex.fonnx.example-58HAwwoz9Ky6sHX5WDQJIg==/base.apk!/lib/x86_64/libonnxruntime_extensions4j_jni.so using class loader ns clns-7 (caller=/data/app/~~tatsTuaW27pOSmCgu5zeCQ==/com.telosnex.fonnx.example-58HAwwoz9Ky6sHX5WDQJIg==/base.apk): ok
+I/x.fonnx.example( 9938): Background concurrent mark compact GC freed 2510KB AllocSpace bytes, 0(0B) LOS objects, 49% free, 2563KB/5126KB, paused 418us,17.788ms total 39.163ms
+D/[OrtWhisper.kt]( 9938): Time taken to run inference: 2369ms
+I/x.fonnx.example( 9938): Background concurrent mark compact GC freed 1299KB AllocSpace bytes, 0(0B) LOS objects, 49% free, 3711KB/7422KB, paused 20.183ms,1.737ms total 46.330ms
+I/flutter ( 9938): [SttService] Stopping due to silence.
+D/[OrtWhisper.kt]( 9938): Time taken to run inference: 2601ms
+D/[OrtWhisper.kt]( 9938): Time taken to run inference: 1963ms
+D/[OrtVad.kt]( 9938): previous LTSM state is null, initializing them to zero arrays.
+D/[OrtVad.kt]( 9938): keys: []
+D/[OrtVad.kt]( 9938): runtime types: null, null
+I/x.fonnx.example( 9938): Background concurrent mark compact GC freed 2624KB AllocSpace bytes, 0(0B) LOS objects, 49% free, 2583KB/5167KB, paused 528us,6.663ms total 36.971ms
+I/x.fonnx.example( 9938): Background concurrent mark compact GC freed 2657KB AllocSpace bytes, 0(0B) LOS objects, 49% free, 2628KB/5257KB, paused 582us,9.575ms total 70.149ms
+D/[OrtWhisper.kt]( 9938): Time taken to run inference: 2594ms
+W/x.fonnx.example( 9938): Suspending all threads took: 21.731ms
+I/x.fonnx.example( 9938): Background concurrent mark compact GC freed 3562KB AllocSpace bytes, 0(0B) LOS objects, 49% free, 3618KB/7236KB, paused 23.601ms,3.195ms total 61.475ms
+D/[OrtWhisper.kt]( 9938): Time taken to run inference: 3271ms
+I/flutter ( 9938): [SttService] Stopping due to max duration.
+D/[OrtWhisper.kt]( 9938): Time taken to run inference: 4500ms
+D/[OrtWhisper.kt]( 9938): Time taken to run inference: 3934ms
+D/[OrtVad.kt]( 9938): previous LTSM state is null, initializing them to zero arrays.
+D/[OrtVad.kt]( 9938): keys: []
+D/[OrtVad.kt]( 9938): runtime types: null, null
+D/[OrtWhisper.kt]( 9938): Time taken to run inference: 1790ms
+D/[OrtWhisper.kt]( 9938): Time taken to run inference: 2157ms
+D/[OrtWhisper.kt]( 9938): Time taken to run inference: 3468ms
+I/flutter ( 9938): [SttService] Stopping due to max duration.
+D/[OrtWhisper.kt]( 9938): Time taken to run inference: 4641ms
+D/[OrtWhisper.kt]( 9938): Time taken to run inference: 3971ms
+D/[OrtVad.kt]( 9938): previous LTSM state is null, initializing them to zero arrays.
+D/[OrtVad.kt]( 9938): keys: []
+D/[OrtVad.kt]( 9938): runtime types: null, null
+I/x.fonnx.example( 9938): Background concurrent mark compact GC freed 3601KB AllocSpace bytes, 4(1840KB) LOS objects, 49% free, 2699KB/5398KB, paused 652us,6.479ms total 47.215ms
+D/[OrtWhisper.kt]( 9938): Time taken to run inference: 1804ms
+I/flutter ( 9938): [SttService] Stopping due to silence.
+D/[OrtWhisper.kt]( 9938): Time taken to run inference: 2023ms
+D/[OrtWhisper.kt]( 9938): Time taken to run inference: 2272ms
+D/[OrtVad.kt]( 9938): previous LTSM state is null, initializing them to zero arrays.
+D/[OrtVad.kt]( 9938): keys: []
+D/[OrtVad.kt]( 9938): runtime types: null, null
+I/x.fonnx.example( 9938): Background concurrent mark compact GC freed 2926KB AllocSpace bytes, 8(1176KB) LOS objects, 49% free, 2640KB/5280KB, paused 480us,12.359ms total 80.524ms
+I/x.fonnx.example( 9938): Background concurrent mark compact GC freed 2571KB AllocSpace bytes, 0(0B) LOS objects, 49% free, 2653KB/5307KB, paused 574us,7.400ms total 26.921ms
+D/[OrtWhisper.kt]( 9938): Time taken to run inference: 5105ms
+D/[OrtWhisper.kt]( 9938): Time taken to run inference: 3604ms
+I/flutter ( 9938): [SttService] Stopping due to max duration.
+D/[OrtWhisper.kt]( 9938): Time taken to run inference: 4248ms
+D/[OrtWhisper.kt]( 9938): Time taken to run inference: 3967ms
+D/[OrtVad.kt]( 9938): previous LTSM state is null, initializing them to zero arrays.
+D/[OrtVad.kt]( 9938): keys: []
+D/[OrtVad.kt]( 9938): runtime types: null, null
+D/[OrtWhisper.kt]( 9938): Time taken to run inference: 1689ms
+I/x.fonnx.example( 9938): Background concurrent mark compact GC freed 3209KB AllocSpace bytes, 0(0B) LOS objects, 49% free, 3296KB/6592KB, paused 3.103ms,8.374ms total 63.786ms
+D/[OrtWhisper.kt]( 9938): Time taken to run inference: 2634ms
+I/x.fonnx.example( 9938): Background concurrent mark compact GC freed 4050KB AllocSpace bytes, 0(0B) LOS objects, 49% free, 4109KB/8218KB, paused 637us,11.077ms total 43.580ms
+I/flutter ( 9938): [SttService] Stopping due to silence.
+D/[OrtWhisper.kt]( 9938): Time taken to run inference: 4645ms
+D/[OrtWhisper.kt]( 9938): Time taken to run inference: 3998ms
+D/[OrtVad.kt]( 9938): previous LTSM state is null, initializing them to zero arrays.
+D/[OrtVad.kt]( 9938): keys: []
+D/[OrtVad.kt]( 9938): runtime types: null, null
+I/x.fonnx.example( 9938): Background concurrent mark compact GC freed 2813KB AllocSpace bytes, 0(0B) LOS objects, 49% free, 2623KB/5246KB, paused 661us,14.036ms total 43.679ms
+I/x.fonnx.example( 9938): Background concurrent mark compact GC freed 2619KB AllocSpace bytes, 0(0B) LOS objects, 49% free, 2633KB/5266KB, paused 644us,6.177ms total 51.983ms
+D/[OrtWhisper.kt]( 9938): Time taken to run inference: 5255ms
+D/[OrtWhisper.kt]( 9938): Time taken to run inference: 3874ms
+I/flutter ( 9938): [SttService] Stopping due to max duration.
+D/[OrtWhisper.kt]( 9938): Time taken to run inference: 4111ms
+D/[OrtWhisper.kt]( 9938): Time taken to run inference: 3703ms
+D/[OrtVad.kt]( 9938): previous LTSM state is null, initializing them to zero arrays.
+D/[OrtVad.kt]( 9938): keys: []
+D/[OrtVad.kt]( 9938): runtime types: null, null
+I/x.fonnx.example( 9938): Background concurrent mark compact GC freed 4939KB AllocSpace bytes, 8(3704KB) LOS objects, 49% free, 2684KB/5368KB, paused 715us,3.298ms total 148.579ms
+D/[OrtWhisper.kt]( 9938): Time taken to run inference: 6238ms
+I/flutter ( 9938): [SttService] Stopping due to max duration.
+D/[OrtWhisper.kt]( 9938): Time taken to run inference: 4882ms
+D/[OrtWhisper.kt]( 9938): Time taken to run inference: 4007ms
+
+Application finished.

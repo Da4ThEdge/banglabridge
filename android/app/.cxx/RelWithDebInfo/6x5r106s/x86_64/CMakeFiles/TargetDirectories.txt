@@ -1,0 +1,2 @@
+C:/personal/github/fonnx/example/android/app/.cxx/RelWithDebInfo/6x5r106s/x86_64/CMakeFiles/edit_cache.dir
+C:/personal/github/fonnx/example/android/app/.cxx/RelWithDebInfo/6x5r106s/x86_64/CMakeFiles/rebuild_cache.dir

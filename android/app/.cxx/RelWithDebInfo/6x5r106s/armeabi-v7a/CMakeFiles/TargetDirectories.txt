@@ -1,0 +1,2 @@
+C:/personal/github/fonnx/example/android/app/.cxx/RelWithDebInfo/6x5r106s/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/personal/github/fonnx/example/android/app/.cxx/RelWithDebInfo/6x5r106s/armeabi-v7a/CMakeFiles/rebuild_cache.dir
